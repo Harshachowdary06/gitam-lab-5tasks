@@ -1,0 +1,90 @@
+#img1{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 200px;
+  z-index: 2;
+}
+#img2{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 300px;
+  left: 400px;
+  z-index: -1;
+}
+#img3{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 500px;
+  left: 600px;
+  z-index: -3;
+}
+.mountains{
+  margin: auto;
+  border-radius: 2%;
+  font-family: monospace;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+#mountain{
+  margin-top: 10px;
+  width: 500px;
+  height: 250px;
+}
+
+.rivers{
+
+    margin: auto;
+    border-radius: 2%;
+    font-family: monospace;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#river{
+  margin-top: 10px;
+  width: 500px;
+  height: 250px;
+}
+.galaxyi{
+
+    margin: auto;
+    border-radius: 2%;
+    font-family: monospace;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#galaxy{
+  margin-top: 10px;
+  width: 500px;
+  height: 250px;
+
+}
+
+#p1{
+  background-color: blue;
+  color: white;
+  border-radius: 2%;
+  display: none;
+}
+#p2{
+
+    background-color: blue;
+    color: white;
+    border-radius: 2%;
+    display: none;
+}
+#p3{
+  background-color: blue;
+  color: white;
+  border-radius: 2%;
+  display: none;
+}
+.data h1{
+  display: none;
+  text-align: center;
+}

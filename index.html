@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab-5</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/positioning.js" ></script>
+    <script src="scripts/moving.js"></script>
+    <script src="scripts/colorsjs"></script>
+  </head>
+  <body>
+    <h1 id="title">Lab-5 tasks</h1>
+
+    <div class="pte">
+
+      <h1>Positioning the element</h1>
+
+      <p id="p-para">You can position this image by clicking on button</p>
+
+      <img id="p-image" src="images/pos-1.jpg" alt="position-sample-image">
+
+      <button type="button" onclick="abs()" id="absolute">absolute</button>
+      <button type="button" onclick="rel()"  id="relative">relative</button>
+      <button  type="button" onclick="stat()"  id="static">static</button>
+      <button type="button" onclick="sty()"  id="sticky">sticky</button>
+      <button type="button" onclick="fix()"  id="fixed">fixed</button>
+      <button  type="button" onclick="inh()"  id="inherit">inherit</button>
+
+
+    </div>
+
+
+    <div class="mte">
+
+      <h1>Moving the element</h1>
+
+      <a href="moving.html" target="_blank"> move!</a>
+    </div>
+
+
+    <div class="cfc">
+
+      <h1>Change font and color</h1>
+
+      <p id="para" onmouseover="run()" onmouseout="run1()">PLace your mouse on emoji</p>
+
+      <img  id="emoji" onmouseover="change()" onmouseout="normal()" src="images/after.jpg" alt="image">
+    <br>  <button type="button" onclick="run1()">change</button>
+
+    </div>
+
+    <div class="visibility">
+
+      <h1>Visibility properties</h1>
+
+      <p id="v-prop"> You can make me invisible</p>
+      <div class="box">
+
+      <img  id="thanos" onmouseout="show()"  onmouseover="hide()" src="images/thanos.jpg" alt="bald-guy">
+
+            </div>
+<br><br>
+      <button type="button" id="snap" onclick="hide()">snap!</button>
+      <button type="button" id="back" onclick="show()">I am back!</button>
+
+    </div>
+
+    <div class="stack">
+      <h1>Stacking of element</h1>
+
+    <a href="stack.html" target="_blank">stacking of an element</a>
+
+
+
+    </div>
+
+    <div class="web-page">
+      <h1>Web Page</h1>
+
+      <a href="webpage.html" target="_blank">Web page</a>
+
+    </div>
+
+
+    <div class="pointer" onmouseover="mouse(event)">
+      <h1>Mouse pointer location</h1>
+      <div class="style">
+
+      ScreenX:<p id="a"></p>
+      ScreenY:<p id="b"></p>
+      clientX:<p id="c"></p>
+      clientY:<p id="d"></p>
+
+    </div>
+    </div>
+
+        <div class="reg-form">
+          <h1>Regeestration form</h1>
+
+          <a href="regform.html" target="_blank">Regestration form</a>
+
+        </div>
+  </body>
+</html>

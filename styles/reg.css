@@ -1,0 +1,31 @@
+.data{
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15%;
+}
+.data input{
+  font-family: cursive;
+  font-size: 20px;
+}
+.data button{
+  margin-top: 50px;
+  border-radius: 3%;
+  color:white;
+  background-color: blue;
+  width: 100px;
+  height: auto;
+  font-size: 20px;
+}
+.errbox{
+  margin-top: 15%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 3%;
+}
+.errbox p{
+  font-size: 20px;
+  font-family: monospace;
+  background-color: red;
+}

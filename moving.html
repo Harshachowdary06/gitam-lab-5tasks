@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.m1{position:absolute;top:100;}
+.inputs{background-color:green;color:white;font-size:25px;font-family:cursive;width:500px; margin:auto; border:2%;}
+#butt{font-size:25px;font-family:cursive;margin-left:50px;}
+p{font:20px arial}
+</style>
+<script>
+
+function moveimg()
+{
+t=document.getElementById("t1").value;
+l=document.getElementById("t2").value;
+styimage=document.getElementById("im1").style;
+styimage.top=t+"px";
+styimage.left=l+"px";
+}
+</script>
+</head>
+<body>
+<img id="im1" class="m1" src="images/home-1.png" height="300" width="300"/>
+<div class="inputs">
+
+top<input type="text" id="t1"/>
+left<input type="text" id="t2"/>
+<br>
+<input id="butt" type="button" value="click here to move the image" onclick="moveimg()">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styles/reg.css">
+    <script src="scripts/reg.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="data">
+
+    Name:  <input id="name" onmouseover="namecheck()" onmouseout="snamecheck()" type="text" placeholder="Enter your name" value="">
+      <button type="button" onmouseover="checkingnc()">check</button>
+    <br>
+    Rollno: <input id="num" onmouseover="numbercheck()" onmouseout="snumbercheck()" type="number" placeholder="Enter your role number" value="">
+
+
+    <button type="button" onmouseover="checkingrc()">check</button>
+
+    </div>
+
+    <div class="errbox">
+      <p id="nc"></p>
+      <p id="rc"></p>
+    </div>
+  </body>
+</html>
